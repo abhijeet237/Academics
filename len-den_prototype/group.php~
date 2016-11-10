@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome</title>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index.css" type="text/css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<?php include("pb_header.php"); ?>
+			<div class="row" style="margin-top:80px;">
+			<div class="row">
+				<div class="container">
+					<div  class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title"><center><h2 style="color:233445">Group<h2></center></div>
+						</div></div>
+<div class="col-lg-4" style="margin-bottom:10px;"></div>
+			
+			<div class="col-lg-4" style="margin-bottom:10px;">
+			<p>			
+                        <div class="btn-group btn-group-justified">
+ <center> <a href="new_group.php" class="btn btn-primary">New</a></center>
+ 
+</div>
+<br><br> 
+ <div class="btn-group btn-group-justified">
+ <center> <a href="Edit_group.php" class="btn btn-primary">Edit</a></center>
+ 
+</div></p> </div>
+                        
+         <div class="col-lg-4" style="margin-bottom:10px;"></div>
+ 			
+            			
+	
+                      
+	</div>
+
+				
+				</div>
+			</div>
+		</div>
+		
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+</html>
