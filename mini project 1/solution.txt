@@ -1,0 +1,11 @@
+1.
+lambda = 5 min
+E(X) = 1/lambda = 1/5 = 0.2
+exponential distribution
+lat X_1, X_2, X_3 be three execution times
+
+we generate random value of each of above in each iteration for 10,000 iterations
+
+cal X  and then cal X^2 as a whole.
+
+Now, compare calculated value of X^2 with the one that is calculated.

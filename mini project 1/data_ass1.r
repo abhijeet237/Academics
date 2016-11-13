@@ -1,0 +1,15 @@
+X=c()
+X2=c()
+
+for (i in 1:10000)
+{  x1 = rexp(1,rate=0.2)
+x2 = rexp(1,rate=0.2)
+x3 = rexp(1,rate=0.2)
+m=max(x1,x2,x3)
+X=c(X,m)
+X2 = c(X2,m^2)
+}
+hist(X,prob=TRUE)
+curve(dexp(x,rate=0.2), col=3, lty=2,lwd=2,add=TRUE)
+mean(X)
+mean(X2)
